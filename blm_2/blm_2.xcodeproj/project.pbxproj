@@ -19,6 +19,8 @@
 		D624628A283ED4DE00F6CCC6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D6246289283ED4DE00F6CCC6 /* Alamofire */; };
 		D624628D283ED52600F6CCC6 /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624628C283ED52600F6CCC6 /* NetworkingProvider.swift */; };
 		D624628F283ED55100F6CCC6 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624628E283ED55100F6CCC6 /* ScannerViewController.swift */; };
+		D6AF097D283EDC6400554652 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF097B283EDC6400554652 /* MyCustomTableViewCell.swift */; };
+		D6AF097E283EDC6400554652 /* MyCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6AF097C283EDC6400554652 /* MyCustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		D624627B283ED4A700F6CCC6 /* blm_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blm_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D624628C283ED52600F6CCC6 /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
 		D624628E283ED55100F6CCC6 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		D6AF097B283EDC6400554652 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		D6AF097C283EDC6400554652 /* MyCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,11 @@
 			children = (
 				D624628B283ED4E900F6CCC6 /* NetworkingProvider */,
 				D6246258283ED4A400F6CCC6 /* AppDelegate.swift */,
+				D624628E283ED55100F6CCC6 /* ScannerViewController.swift */,
 				D624625A283ED4A400F6CCC6 /* SceneDelegate.swift */,
 				D624625C283ED4A400F6CCC6 /* ViewController.swift */,
+				D6AF097B283EDC6400554652 /* MyCustomTableViewCell.swift */,
+				D6AF097C283EDC6400554652 /* MyCustomTableViewCell.xib */,
 				D624625E283ED4A400F6CCC6 /* Main.storyboard */,
 				D6246261283ED4A600F6CCC6 /* Assets.xcassets */,
 				D6246263283ED4A600F6CCC6 /* LaunchScreen.storyboard */,
@@ -138,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				D624628C283ED52600F6CCC6 /* NetworkingProvider.swift */,
-				D624628E283ED55100F6CCC6 /* ScannerViewController.swift */,
 			);
 			path = NetworkingProvider;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 			files = (
 				D6246265283ED4A600F6CCC6 /* LaunchScreen.storyboard in Resources */,
 				D6246262283ED4A600F6CCC6 /* Assets.xcassets in Resources */,
+				D6AF097E283EDC6400554652 /* MyCustomTableViewCell.xib in Resources */,
 				D6246260283ED4A400F6CCC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +291,7 @@
 				D6246259283ED4A400F6CCC6 /* AppDelegate.swift in Sources */,
 				D624628D283ED52600F6CCC6 /* NetworkingProvider.swift in Sources */,
 				D624628F283ED55100F6CCC6 /* ScannerViewController.swift in Sources */,
+				D6AF097D283EDC6400554652 /* MyCustomTableViewCell.swift in Sources */,
 				D624625B283ED4A400F6CCC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
